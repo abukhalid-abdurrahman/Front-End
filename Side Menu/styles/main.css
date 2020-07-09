@@ -1,0 +1,111 @@
+body{
+    background-color: ghostwhite;
+    font-family: Century Gothic;
+    margin: 0;
+}
+
+.top-menu{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+
+.top-menu img{
+    padding-top: 5px;
+    width: 30px;
+}
+
+.side-menu{
+    z-index: -1;
+    visibility: hidden;
+    position: fixed;
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side-menu-mini {
+    z-index: -1;
+    position: fixed;
+    float: left;
+    height: 100%;
+    width: 3.5%;
+    background-color: white;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side-menu-mini ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-menu-mini ul li img{
+    width: 80%;
+    
+    margin: 10%;
+}
+
+.side-menu-mini ul li:hover{
+    background-color: ghostwhite;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 400ms ease-in-out;
+}
+
+.profile{
+    width: 100%;
+    height: 30%;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.profile p{
+    text-align: center;
+}
+
+.side-menu ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 40px;
+    list-style: none;
+}
+.side-menu ul li{
+    width: 100%;
+    text-indent: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px gainsboro solid;
+}
+
+
+.side-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.side-menu ul li img{
+    width: 8%;
+    float: left;
+    padding-left: 10%;
+}
+
+.side-menu ul li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 400ms ease-in-out;
+}
+
+.side-menu ul:last-child{
+    border-bottom: 1px gainsboro solid;
+}
